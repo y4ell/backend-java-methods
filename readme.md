@@ -1,46 +1,37 @@
-# Backend Java: Methods
+# Opdrachtbeschrijving - Methoden
 
 ## Inleiding
-
-Deze repository bevat oefeningen voor methods in Java.
-Neem eerst het hoofdstuk over methods door.
-
-Je gaat oefenen met diverse methods.
-
-Je ziet in src/main/java 3 classes. Je kunt eerst oefenen met methods die geen parameters, of return type hebben.
-Daarna ga je oefenen met methods die een parameter hebben en als laatste komen oefeningen aan bod met methods die zowel
-parameters als een return type hebben.
+Je gaat oefenen met het maken van methodes. Eerst zul je dit doen door methodes te maken zonder return value (output) of parameters (input). Daarna ga je aan de slag met het gebruik van parameters en ten slotte schrijf je methodes die zowel parameters als return values hebben.
 
 ## Voor je begint
+Je hebt IntelliJ IDEA en de JDK (Java Development Kit) versie 17 of hoger nodig - deze heb je beiden via de instructies op EdHub geïnstalleerd.
 
-Voorwaarden voor deze opdracht:
-1. Java Development Kit, versie 17
-2. IntelliJ IDEA
+### 🟩 Code runnen (vanuit IntelliJ)
+Klik op de groene play-knop voor de main-methode en kies 'Run...'.
 
-### Uitvoeren met Maven
+### 🟨 Testen uitvoeren (vanuit IntelliJ)
+Klik op de groene play-knop voor de MainTest-class in src/test/java en kies 'Run 'MainTest''.
 
-Voer de opdracht code uit met:
+### ⬛ Code runnen (met Maven)
+
+Of, als je bekend bent met de terminal, kun je de applicatie runnen met:
 
 ```shell
 ./mvnw clean compile exec:java
 ```
 
-of
+of 
 
 ```shell
 mvnw.cmd clean compile exec:java
 ```
 
-### Uitvoeren vanuit Intellij
-
-Groene play-knop voor de `main` method klikken en 'Run...' kiezen.
-
-### Testen uitvoeren vanuit Intellij
-
-Groene play-knop voor de `MainTest` class in src/test/java klikken en 'Run 'MainTest'' kiezen.
-
 ## Opdracht
+In de map `src/main/java` tref je drie classes aan:
+* `A_Monoloog.java`;
+* `B_Dialoog.java`;
+* `C_Oppervlakte.java`;
 
-In iedere class vind je verdere uitleg over de opdrachten. Doorloop de opgaves in volgorde (A, B, C).
-Zorg ervoor dat de code compileert en dat de testen slagen.
+De instructies en uitleg over de opdrachtjes, vind je in de classes zelf. Doorloop de opgaves in volgorde (A, B, en C).
 
+Om te valideren dat je klaar bent, kun je de testen draaien. In `src/test/java` vind je een class met de naam MainTest. Deze test alle drie de classes waarin jij methodes geschreven hebt. Links daarvan staat een groen pijltje die je kunt gebruiken om te compileren en te testen. Onderin het scherm komt het resultaat te staan. Zijn niet alle testen groen? Kijk dan goed naar de uitslag van de test om te zien wat er fout gaat. Door aanpassingen te maken in de code, kun je ervoor zorgen dat de testen één voor één slagen!
